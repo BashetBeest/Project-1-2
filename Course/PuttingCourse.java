@@ -32,69 +32,72 @@ public class PuttingCourse implements Function2D{
      
     @Override
      /**
-      * 
-       */ 
+      * methof to evaluate the height
+      * @return the height as a double 
+     */ 
     public double evaluateHeight(Vector2D vector){
         //TODO complete the method
         return 0; 
     }
     /**
-     * 
+     *  method to evaluate the slope 
+     * @return 
      */
     @Override 
     public Vector2D gradient(Vector2D vector){
         double x0 = vector.getX(); 
         double y0 = vector.getY();
-
+        //TODO complete this method
         
 
     }
     /**
-     * 
-     * @return
+     * method that evaluates the friction
+     * @return friction coefficient 
      */
     @Override
     public double evaluateFriction(){
+        //TODO complete the method
         return 0; 
     } 
     /**
-     * 
-     * @return
+     * getter for the ball
+     * @return ball
      */
     public Ball getBall(){
         return ball; 
     }
     /**
-     * 
-     * @return
+     * getter for the aimed position
+     * @return flag
      */
     public Vector2D getFlag(){
         return flag; 
     }
     /**
-     * 
-     * @return
+     * getter for the starting position
+     * @return start position
      */
     public Vector2D getStart(){
         return start; 
     }
     /**
-     * 
-     * @return
+     * getter for the friction coefficient
+     * @return friction coefficient
      */
     public double getFrictionCoefficient(){
         return friction; 
     }
     /**
-     * 
-     * @return
+     * getter for the makximum velocity
+     * @return maximum velocity
      */
     public double getMaxVelocity(){
         return maxVelocity; 
     }
     /**
-     * 
-     * @return
+     * getter for the hole tolerance coefficient 
+     * @return the tolerance value
      */
     public double getTolerance(){
         return tolerance;
