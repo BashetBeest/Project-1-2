@@ -1,0 +1,9 @@
+Gravity = 100
+Mass = 
+Coefficient of friction = 
+initial speed = 
+tolerence for the goal = 
+Start position X = 
+Start position Y = 
+Goal position X = 
+Goal position Y = 

@@ -1,0 +1,9 @@
+Gravity = 9.81
+Mass = 45.93
+Coefficient of friction = 0.131
+initial speed = 3
+tolerence for the goal = 0.02
+Start position X = 0.0
+Start position Y = 0.0
+Goal position X = 0.0
+Goal position Y = 10
